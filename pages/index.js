@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <header>
-        <h1>Next.js Starter</h1>
+        <h1>Graham's Todos</h1>
       </header>
     </div>
   )
