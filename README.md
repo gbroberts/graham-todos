@@ -1,3 +1,3 @@
-# NEXT.js Kit
+# Graham's Todos App
 
-To update: `npm update next@latest`
+This is a web based application using Next.js framework and firebase to manage user todos
