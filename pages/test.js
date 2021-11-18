@@ -9,7 +9,7 @@ import {useState} from 'react'
 function Counter(props) {
     const [count, setCount] = useState(12)
     function handleClick (e){
-        setCount(count++)
+        setCount(count+1)
     }
     return (
         <div>
