@@ -1,5 +1,7 @@
 {
-  "name": "next-pages-routing",
+  "name": "graham-todos",
+  "github": "https://github.com/gbroberts/graham-todos",
+  "description": "An app to manage your todos with Firebase",
   "private": true,
   "scripts": {
     "dev": "next dev",

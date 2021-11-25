@@ -1,8 +1,17 @@
 # Graham's Todos App
 
-This is a web based application using Next.js framework and firebase to manage user todos
+## Author: Graham Roberts
 
-The site can be accessed here: [https://graham-todos.vercel.app/](https://graham-todos.vercel.app/)
+### Deployment
 
-[Reaction icon library](https://react-icons.github.io/react-icons/)
-[SVGR](https://react-svgr.com/docs/getting-started)
+This todo app is currently deployed to Vercel [here](https://graham-todos.vercel.app/)
+
+### Description
+
+This is a web based application using Next.js framework and Firebase to manage user todos. At present it has functionality to login a user, routing them to the todo page through a protected path. Logging out routes the user back to the login page.
+
+### Useful External Resources
+
+This app uses the reaction icon library found [here](https://react-icons.github.io/react-icons/) to have access to many usefuly icons.
+
+The SVGR library is used in the app for converting SVG files to React components. Documentation found [here](https://react-svgr.com/docs/getting-started).
