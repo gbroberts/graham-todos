@@ -1,5 +1,5 @@
 import { AppBar } from "components/appbar"
-import { GoogleProvider } from "components/authentication/providers"
+import { GitHubProvider, GoogleProvider } from "components/authentication/providers"
 import { Title } from "ui/title"
 import { Divider } from "ui/spacers"
 import { UserLogin } from "components/authentication/user-login"
@@ -10,20 +10,20 @@ function Index() {
 
     return (
         <>
-            <AppBar />
+            <AppBar/>
             <PageLayout>
                 <PageHeader>
                     <Title>Account Login</Title>
                 </PageHeader>
                 <PageBody>
-                    <GoogleProvider>With Google</GoogleProvider>
+                    <GoogleProvider style={{marginBottom:"1.5rem"}}>With Google</GoogleProvider>
+                    <GitHubProvider>With Github</GitHubProvider>
                     <Divider>OR</Divider>
-                    <UserLogin />
+                    <UserLogin/>
                 </PageBody>
                 <PageFooter>
                     <Legal>Legal Stuff  <HighLight>terms and conditions</HighLight></Legal>
                 </PageFooter>
-
             </PageLayout>
         </>
     )
